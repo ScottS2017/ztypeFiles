@@ -1,0 +1,329 @@
+WIDGET CATALOG
+
+
+BASICS
+Widgets you absolutely need to know before building your first Flutter app.
+
+
+Container
+A convenience widget that combines common painting, positioning, and sizing widgets. 
+
+Row
+Layout a list of child widgets in the horizontal direction. 
+
+Column
+Layout a list of child widgets in the vertical direction. 
+
+Image
+A widget that displays an image
+
+Text
+A run of text with a single style. 
+
+Icon
+A Material Design icon. 
+
+RaisedButton
+A Material Design raised button. A raised button consists of a rectangular piece of material that hovers over the interface.
+
+Scaffold
+Implements the basic Material Design visual layout structure. This class provides APIs for showing drawers, snack bars, and bottom sheets. 
+
+Appbar
+A Material Design app bar. An app bar consists of a toolbar and potentially other widgets, such as a TabBar and a FlexibleSpaceBar. 
+
+FlutterLogo
+The Flutter logo, in widget form. This widget respects the IconTheme. 
+
+Placeholder
+A widget that draws a box that represents where other widgets will one day be added
+
+
+MATERIAL COMPONENTS
+Visual, behavioral, and motion-rich widgets implementing the Material Design guidelines.
+
+
+APP STRUCTURE AND NAVIGATION
+
+
+Scaffold
+Implements the basic Material Design visual layout structure. This class provides APIs for showing drawers, snack bars, and bottom sheets. 
+
+Appbar
+A Material Design app bar. An app bar consists of a toolbar and potentially other widgets, such as a TabBar and a FlexibleSpaceBar. 
+
+BottomNavigationBar
+Bottom navigation bars make it easy to explore and switch between top-level views in a single tap. The BottomNavigationBar widget implements this component. 
+
+TabBar
+A Material Design widget that displays a horizontal row of tabs. 
+
+TabViewBar
+A page view that displays the widget which corresponds to the currently selected tab. Typically used in conjunction with a TabBar. 
+
+MaterialApp
+A convenience widget that wraps a number of widgets that are commonly required for applications implementing Material Design. 
+
+WidgetsApp
+A convenience class that wraps a number of widgets that are commonly required for an application. 
+
+Drawer
+A Material Design panel that slides in horizontally from the edge of a Scaffold to show navigation links in an application. 
+
+
+BUTTONS
+
+
+RaisedButton
+A Material Design raised button. A raised button consists of a rectangular piece of material that hovers over the interface. 
+
+FloatingActionButton
+A floating action button is a circular icon button that hovers over content to promote a primary action in the application. Floating action buttons are most commonly used in the Scaffold.floatingActionButton field. 
+
+FlatButton
+A flat button is a section printed on a Material Components widget that reacts to touches by filling with color. 
+
+IconButton
+An icon button is a picture printed on a Material widget that reacts to touches by filling with color (ink). 
+
+PopupMenuButton
+Displays a menu when pressed and calls onSelected when the menu is dismissed because an item was selected.
+
+ButtonBar
+A horizontal arrangement of buttons. 
+
+
+INPUTS AND SELECTIONS
+
+
+TextField
+Touching a text field places the cursor and displays the keyboard. The TextField widget implements this component. 
+
+Checkbox
+Checkboxes allow the user to select multiple options from a set. The Checkbox widget implements this component. 
+
+Radio
+Radio buttons allow the user to select one option from a set. Use radio buttons for exclusive selection if you think that the user needs to see all available options side-by-side. 
+
+Switch
+On/off switches toggle the state of a single settings option. The Switch widget implements this component. 
+
+Slider
+Sliders let users select from a range of values by moving the slider thumb.
+
+Dat and Time Pickers
+Date pickers use a dialog window to select a single date on mobile. Time pickers use a dialog to select a single time (in the hours:minutes format) on mobile. 
+
+
+DIALOGS ALERTS AND PANELS
+
+
+SimpleDialog
+Simple dialogs can provide additional details or actions about a list item. For example they can display avatars icons clarifying subtext or orthogonal actions (such as adding an account). 
+
+AlertDialog
+Alerts are urgent interruptions requiring acknowledgement that inform the user about a situation. The AlertDialog widget implements this component. 
+
+BottomSheet
+Bottom sheets slide up from the bottom of the screen to reveal more content. You can call showBottomSheet() to implement a persistent bottom sheet or showModalBottomSheet() to implement a modal bottom sheet. 
+
+ExpansionPanel
+Expansion panels contain creation flows and allow lightweight editing of an element. The ExpansionPanel widget implements this component. 
+
+SnackBar
+A lightweight message with an optional action which briefly displays at the bottom of the screen. 
+
+
+INFORMATION DISPLAYS
+
+
+Image
+A widget that displays an image. 
+
+Icon
+A Material Design icon. 
+
+Chip
+A Material Design chip. Chips represent complex entities in small blocks, such as a contact. 
+
+Tooltip
+Tooltips provide text labels that help explain the function of a button or other user interface action. Wrap the button in a Tooltip widget to show a label when the widget long pressed (or when the user takes some other appropriate action). 
+
+DataTable
+Data tables display sets of raw data. They usually appear in desktop enterprise products. The DataTable widget implements this component. 
+
+Card
+A Material Design card. A card has slightly rounded corners and a shadow. 
+
+LinearProgressIndicator
+Progress and activity indicators are visual indications of an app loading content. The LinearProgressIndicator widget implements this component. In addition you may also use the CircularProgressIndicator widget. 
+
+GridView
+A grid list consists of a repeated pattern of cells arrayed in a vertical and horizontal layout. The GridView widget implements this component. 
+
+
+LAYOUT
+
+
+ListTile
+A single fixed-height row that typically contains some text as well as a leading or trailing icon. 
+
+Stepper
+A Material Design stepper widget that displays progress through a sequence of steps. 
+
+Divider
+A one logical pixel thick horizontal line, with padding on either side. 
+
+CUPERTINO iOS SYLE Widgets 
+Beautiful and high-fidelity widgets for current iOS design language.
+
+
+CupertinoActivityIndicator
+ An iOS-style activity indicator. Displays a circular 'spinner'. 
+
+CupertinoAlertDialog
+An iOS-style alert dialog. 
+
+CupertinoButton
+An iOS-style button.
+
+CupertinoDialog
+An iOS-style dialog. 
+
+CupertinoDialogAction
+A button typically used in a CupertinoAlertDialog.
+
+CupertinoSlider
+Used to select from a range of values
+
+CupertinoSwitch
+An iOS-style switch. Used to toggle the on/off state of a single setting. 
+
+CupertinoPickeer
+An iOS-style picker control. Used to select an item in a short list. 
+
+PageTranslation
+Provides an iOS-style page transition animation. 
+
+CupertinoFullscreenDialogTransition
+An iOS-style transition used for summoning fullscreen dialogs.
+
+CupertinoNavigatioBar
+An iOS-style top navigation bar. Typically used with CupertinoPageScaffold.
+
+CupertinoTabBar
+An iOS-style bottom tab bar. Typically used with CupertinoTabScaffold. 
+
+CupertinoPageScaffold
+Basic iOS style page layout structure. Positions a navigation bar and content. 
+
+CupertinoTabScaffold
+Tabbed iOS app structure. Positions a tab bar on top of tabs of content. 
+
+CupertinoTabView
+Root content of a tab that supports parallel navigation between tabs. Typically used with CupertinoTabScaffold 
+
+
+LAYOUT
+Arrange other widgets columns, rows, grids, and many other layouts.
+
+
+SINGLE CHILD LAYOUT WIDGETS
+
+Container
+A convenience widget that combines common painting, positioning, and sizing widgets. 
+
+Padding
+A widget that insets its child by the given padding. 
+
+Center
+A widget that centers its child within itself.
+
+Align
+A widget that aligns its child within itself and optionally sizes itself based on the child's size. 
+
+FittedBox
+Scales and positions its child within itself according to fit.
+
+AspectRatio
+A widget that attempts to size the child to a specific aspect ratio. 
+
+ConstrainedBox
+A widget that imposes additional constraints on its child. 
+
+Baseline
+A widget that positions its child according to the child's baseline. 
+
+FractionallySizedBox
+A widget that sizes its child to a fraction of the total available space. For more details about the layout algorithm, see RenderFractionallySizedOverflowBox. 
+
+IntrinsicHeight
+A widget that sizes its child to the child's intrinsic height. 
+
+IntrinsicWidth
+A widget that sizes its child to the child's intrinsic width. 
+
+LimitedBox
+A box that limits its size only when it's unconstrained. 
+
+Offstage
+A widget that lays the child out as if it was in the tree, but without painting anything, without making the child available for hit testing, and without taking any room in the parent. 
+
+OverflowBox
+A widget that imposes different constraints on its child than it gets from its parent, possibly allowing the child to overflow the parent. 
+
+SizedBox 
+A box with a specified size. If given a child, this widget forces its child to have a specific width and/or height (assuming values are permitted by this widget's parent). If either the width or height is null, this widget will size itself to match the child's size in that dimension. 
+
+SizedOverFlowBox
+A widget that is a specific size but passes its original constraints through to its child, which will probably overflow. 
+
+Transform
+ A widget that applies a transformation before painting its child. 
+
+CustomSingeChildLayout
+A widget that defers the layout of its single child to a delegate.
+
+
+MULTI CHILD LAYOUT WIDGETS
+
+
+Row
+Layout a list of child widgets in the horizontal direction. 
+
+Column
+Layout a list of child widgets in the vertical direction. 
+
+Stack
+This class is useful if you want to overlap several children in a simple way, for example having some text and an image, overlaid with a gradient and a button attached to the bottom. 
+
+IndexedStack
+A Stack that shows a single child from a list of children. 
+
+GridView
+A scrollable, 2D array of widgets. 
+
+Flow 
+A widget that implements the flow layout algorithm. 
+
+Table 
+A widget that uses the table layout algorithm for its children. 
+
+Wrap
+A widget that displays its children in multiple horizontal or vertical runs. 
+
+ListBody
+A widget that arranges its children sequentially along a given axis, forcing them to the dimension of the parent in the other axis. 
+
+ListView
+A scrollable, linear list of widgets. ListView is the most commonly used scrolling widget. It displays its children one after another in the scroll direction. In the cross axis, the children are required to fill the ListView. 
+
+CustomMultiChildLayout
+A widget that uses a delegate to size and position multiple children. 
+
+
+LAYOUT HELPERS
+
+
+LayoutBuilder
+Builds a widget tree that can depend on the parent widget's size. 
