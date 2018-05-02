@@ -1,0 +1,176 @@
+GestureDetector class
+
+A widget that detects gestures.
+
+Attempts to recognize gestures that correspond to its non-null callbacks.
+
+If this widget has a child, it defers to that child for its sizing behavior. If it does not have a child, it grows to fit the parent instead.
+
+By default a GestureDetector with an invisible child ignores touches; this behavior can be controlled with behavior.
+
+GestureDetector also listens for accessibility events and maps them to the callbacks. To ignore accessibility events, set excludeFromSemantics to true.
+
+See flutter.io/gestures/ for additional information.
+
+
+Material design applications typically react to touches with ink splash effects. The InkWell class implements this effect and can be used in place of a GestureDetector for handling taps.
+
+
+INHERITANCE
+
+
+Object Diagnosticable DiagnosticableTree Widget StatelessWidget GestureDetector
+
+
+Constructors do not display properly in ztype
+
+
+PROPERTIES
+
+
+behavior
+How this gesture detector should behave during hit testing.
+
+child
+The widget below this widget in the tree.
+
+excludeFromSemantics
+Whether to exclude these gestures from the semantics tree. For example, the long-press gesture for showing a tooltip is excluded because the tooltip itself is included in the semantics tree directly and so having a gesture to show it would result in duplication of information.
+
+onDoubleTap
+The user has tapped the screen at the same location twice in quick succession.
+
+onHorizontalDragCancel
+The pointer that previously triggered onHorizontalDragDown did not complete.
+
+onHorizontalDragDown
+A pointer has contacted the screen and might begin to move horizontally.
+
+onHorizontalDragEnd
+A pointer that was previously in contact with the screen and moving horizontally is no longer in contact with the screen and was moving at a specific velocity when it stopped contacting the screen.
+
+onHorizontalDragStart
+A pointer has contacted the screen and has begun to move horizontally.
+
+onHorizontalDragUpdate
+A pointer that is in contact with the screen and moving horizontally has moved in the horizontal direction.
+
+onLongPress
+A pointer has remained in contact with the screen at the same location for a long period of time.
+
+onPanCancel
+The pointer that previously triggered onPanDown did not complete.
+
+onPanDown
+A pointer has contacted the screen and might begin to move.
+
+onPanEnd
+A pointer that was previously in contact with the screen and moving is no longer in contact with the screen and was moving at a specific velocity when it stopped contacting the screen.
+
+onPanStart
+A pointer has contacted the screen and has begun to move.
+
+onPanUpdate
+A pointer that is in contact with the screen and moving has moved again.
+
+onScaleEnd
+The pointers are no longer in contact with the screen.
+
+onScaleStart
+The pointers in contact with the screen have established a focal point and initial scale of 1.0.
+
+onScaleUpdate
+The pointers in contact with the screen have indicated a new focal point and/or scale.
+
+onTap
+A tap has occurred.
+
+onTapCancel
+The pointer that previously triggered onTapDown will not end up causing a tap.
+
+onTapDown
+A pointer that might cause a tap has contacted the screen at a particular location.
+
+onTapUp
+A pointer that will trigger a tap has stopped contacting the screen at a particular location.
+
+onVerticalDragCancel
+The pointer that previously triggered onVerticalDragDown did not complete.
+
+onVerticalDragDown
+A pointer has contacted the screen and might begin to move vertically.
+
+onVerticalDragEnd
+A pointer that was previously in contact with the screen and moving vertically is no longer in contact with the screen and was moving at a specific velocity when it stopped contacting the screen.
+
+onVerticalDragStart
+A pointer has contacted the screen and has begun to move vertically.
+
+onVerticalDragUpdate
+A pointer that is in contact with the screen and moving vertically has moved in the vertical direction.
+
+hashCode
+The hash code for this object
+
+key
+Controls how one widget replaces another widget in the tree
+
+runtimeType
+A representation of the runtime type of the object.
+
+
+METHODS
+
+
+build
+This takes a BuildContext context
+
+Describes the part of the user interface represented by this widget.
+returns a Widget
+
+
+createElement() 
+No parameters
+
+Creates a StatelessElement to manage this widget's location in the tree.
+Returns a StatelessElement
+
+
+debugDescribeChildren()
+No parameters
+
+Returns a list of DiagnosticsNode objects describing this node's children.
+
+
+debugFillProperties
+Takes a DiagnosticPropertiesBuilder
+
+Add additional properties associated with the node.
+Returns void
+
+
+noSuchMethod
+Takes an Invocation
+
+Invoked when a non-existent method or property is accessed.
+Returns a dynamic
+
+DiagnosticsNode
+toDiagnosticsNode({String name, DiagnosticsTreeStyle style })
+Returns a debug representation of the object that is used by debugging tools and by toStringDeep.
+
+String
+toString({DiagnosticLevel minLevel: DiagnosticLevel.debug })
+Returns a string representation of this object.
+
+String
+toStringDeep({String prefixLineOne: '', String prefixOtherLines, DiagnosticLevel minLevel: DiagnosticLevel.debug })
+Returns a string representation of this node and its descendants.
+
+String
+toStringShallow({String joiner: ', ', DiagnosticLevel minLevel: DiagnosticLevel.debug })
+Returns a one-line detailed description of the object.
+
+String
+toStringShort() → String
+A short, textual description of this widget.
