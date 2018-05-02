@@ -109,49 +109,36 @@ A pointer has contacted the screen and has begun to move vertically.
 onVerticalDragUpdate
 A pointer that is in contact with the screen and moving vertically has moved in the vertical direction.
 
-hashCode
-The hash code for this object
+hashCode,
+The hash code for this object:
 
-key
-Controls how one widget replaces another widget in the tree
+key,
+Controls how one widget replaces another widget in the tree:
 
-runtimeType
-A representation of the runtime type of the object.
-
-
-METHODS
+runtimeType,
+A representation of the runtime type of the object:
 
 
-build
-This takes a BuildContext context
-
-Describes the part of the user interface represented by this widget.
-returns a Widget
+METHODS:
 
 
-createElement() 
-No parameters
-
-Creates a StatelessElement to manage this widget's location in the tree.
-Returns a StatelessElement
+build This takes a BuildContext Describes the part of the user interface represented by this widget. returns a Widget:
 
 
-debugDescribeChildren()
-No parameters
+createElement(). No parameters. Creates a StatelessElement to manage this widget's location in the tree.Returns a StatelessElement:
 
-Returns a list of DiagnosticsNode objects describing this node's children.
+
+debugDescribeChildren() No parameters Returns a list of DiagnosticsNode objects describing this node's children:
 
 
 debugFillProperties
 Takes a DiagnosticPropertiesBuilder
-
 Add additional properties associated with the node.
 Returns void
 
 
 noSuchMethod
 Takes an Invocation
-
 Invoked when a non-existent method or property is accessed.
 Returns a dynamic
 
@@ -174,3 +161,11 @@ Returns a one-line detailed description of the object.
 String
 toStringShort() → String
 A short, textual description of this widget.
+
+
+
+
+
+
+
+
