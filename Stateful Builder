@@ -1,0 +1,67 @@
+
+StatefulBuilder class
+
+A platonic widget that both has state and calls a closure to obtain its child widget.
+
+See also
+
+    Builder, the platonic stateless widget.:
+
+INERITANCE
+
+        Object 
+        Diagnosticable 
+        DiagnosticableTree 
+        Widget 
+        StatefulWidget 
+        StatefulBuilder 
+
+Constructors do not translate to ztype well
+
+PROPERTIES
+
+builder
+    Called to obtain the child widget:
+    
+hashCode
+    The hash code for this object:
+    
+key
+    Controls how one widget replaces another widget in the tree:
+    
+runtimeType
+    A representation of the runtime type of the object:
+    
+
+METHODS
+
+createState returns a _StatefulBuilderState
+    Creates the mutable state for this widget at a given location in the tree:
+    
+createElement returns a StatefulElement
+    Creates a StatefulElement to manage this widget's location in the tree:
+   
+debugDescribeChildren returns a List of DiagnosticsNode:
+    Returns a list of DiagnosticsNode objects describing this node's children:
+    
+debugFillProperties takes a DiagnosticPropertiesBuilder argument and returns void
+    Add additional properties associated with the node:
+  
+noSuchMethod takes an Invocation and returns a dynamic
+    Invoked when a non-existent method or property is accesse:
+    
+toDiagnosticsNode takes a String name and a DiagnosticsTreeStyle, returns a DiagnosticsNode
+    Returns a debug representation of the object that is used by debugging tools and by toStringDeep:
+    
+toString takes a DiagnosticLevel and returns a String
+    Returns a string representation of this object:
+    
+toStringDeep takes two Strings and two DiagnosticLevels then returns a String
+    Returns a string representation of this node and its descendants:
+    
+toStringShallow takes a String and a DiagnosticLevel minLevel then returns a String
+    Returns a one-line detailed description of the object:
+    
+toStringShort returns a String
+    A short, textual description of this widget:
+   
