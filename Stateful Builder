@@ -7,13 +7,11 @@ See also
 
     Builder, the platonic stateless widget.:
 
-INERITANCE
-
-        Object Diagnosticable DiagnosticableTree Widget StatefulWidget StatefulBuilder 
+INERITANCE Object Diagnosticable DiagnosticableTree Widget StatefulWidget StatefulBuilder 
         
         Constructors do not translate to ztype well
 
-PROPERTIES
+PROPERTIES:
 
 builder
     Called to obtain the child widget:
