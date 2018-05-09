@@ -9,14 +9,9 @@ See also
 
 INERITANCE
 
-        Object 
-        Diagnosticable 
-        DiagnosticableTree 
-        Widget 
-        StatefulWidget 
-        StatefulBuilder 
-
-Constructors do not translate to ztype well
+        Object Diagnosticable DiagnosticableTree Widget StatefulWidget StatefulBuilder 
+        
+        Constructors do not translate to ztype well
 
 PROPERTIES
 
